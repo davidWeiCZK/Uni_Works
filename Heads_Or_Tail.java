@@ -1,10 +1,16 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Heads_Or_Tail {
     public static void main(String[] strings) {
         int rounds = 0;
         int head_count = 0;
         int tail_count = 0;
+
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Who are you?");
+        String user_name = myObj.nextLine();
+        System.out.println("Hello, " + user_name + "!");
 
         System.out.println("Tossing a coin...");
 
@@ -23,5 +29,7 @@ public class Heads_Or_Tail {
         }
 
         System.out.println("Heads: " + head_count + ", Tails: " + tail_count);
+
+
     }
 }
