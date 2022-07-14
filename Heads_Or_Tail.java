@@ -31,10 +31,10 @@ public class Heads_Or_Tail {
 
         System.out.println("Heads: " + head_count + ", Tails: " + tail_count);
 
+
         if (head_count > tail_count){
             System.out.println(user_name + " won!");
         } else {System.out.println(user_name + " lost!");}
-
 
 
     }
