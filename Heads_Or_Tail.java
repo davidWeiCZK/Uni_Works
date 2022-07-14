@@ -24,6 +24,5 @@ public class Heads_Or_Tail {
 
         System.out.println("Heads: " + head_count + ", Tails: " + tail_count);
 
-
     }
 }
